@@ -1,0 +1,1 @@
+export default function FlootLoginButton(){return <button className="primary" onClick={()=>{localStorage.setItem("ase_demo_user","google");location.href="/onboarding"}}><span>G</span> Continue with Google</button>}
